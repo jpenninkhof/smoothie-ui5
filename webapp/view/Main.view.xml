@@ -1,0 +1,19 @@
+<mvc:View 
+	controllerName="com.penninkhof.smootie.controller.Main" 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:jp="com.penninkhof.smootie.controls"
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<jp:SmoothieChart 
+						id="awesome" 
+						width="500px" 
+						height="200px" />
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
